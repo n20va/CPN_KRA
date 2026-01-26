@@ -1,0 +1,139 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="CpnLab.Ui2.MainWindow"
+        Title="CPN Lab"
+        Width="1300"
+        Height="720">
+
+    <Grid RowDefinitions="Auto,*"
+          ColumnDefinitions="2*,2*,3*,3*"
+          Margin="10">
+
+        <StackPanel Grid.Row="0"
+                    Grid.ColumnSpan="4"
+                    Orientation="Horizontal"
+                    Spacing="10">
+
+            <Button x:Name="BtnReset"
+                    Content="Reset"
+                    Click="OnReset"/>
+
+            <Button x:Name="BtnFireSelected"
+                    Content="Fire selected"
+                    Click="OnFireSelected"/>
+
+            <Button x:Name="BtnStep"
+                    Content="Step (random enabled)"
+                    Click="OnStepRandom"/>
+
+            <Button x:Name="BtnFireAll"
+                    Content="Fire all enabled"
+                    Click="OnFireAll"/>
+
+            <TextBlock Text="N inputs:"
+                       Margin="20,0,0,0"
+                       VerticalAlignment="Center"/>
+
+            <TextBox x:Name="TbInputsCount"
+                     Width="80"
+                     Watermark="N"
+                     Text="5"/>
+
+            <Button x:Name="BtnBuild"
+                    Content="Build"
+                    Click="OnBuildNet"/>
+
+            <TextBlock x:Name="TxtStatus"
+                       Margin="20,0,0,0"
+                       VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <Border Grid.Row="1"
+                Grid.Column="0"
+                BorderThickness="1"
+                Padding="8">
+
+            <StackPanel>
+                <TextBlock Text="Places"
+                           FontWeight="Bold"
+                           Margin="0,0,0,6"/>
+
+                <ListBox x:Name="LbPlaces"
+                         Height="520"
+                         SelectionChanged="OnPlaceSelected"/>
+
+                <TextBlock Text="Edit place tokens"
+                           Margin="0,10,0,4"/>
+
+                <StackPanel Orientation="Horizontal"
+                            Spacing="6">
+
+                    <TextBox x:Name="TbTokenValue"
+                             Width="80"
+                             Watermark="token"/>
+
+                    <TextBox x:Name="TbTokenCount"
+                             Width="80"
+                             Watermark="count"/>
+
+                    <Button Content="Apply"
+                            Click="OnApplyTokens"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="1"
+                Grid.Column="1"
+                BorderThickness="1"
+                Padding="8"
+                Margin="10,0,10,0">
+
+            <StackPanel>
+                <TextBlock Text="Transitions"
+                           FontWeight="Bold"
+                           Margin="0,0,0,6"/>
+
+                <ListBox x:Name="LbTransitions"
+                         Height="520"
+                         SelectionChanged="OnTransitionSelected"/>
+
+                <TextBlock x:Name="TxtEnabled"
+                           Margin="0,8,0,0"
+                           Opacity="0.8"/>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="1"
+                Grid.Column="2"
+                BorderThickness="1"
+                Padding="8">
+
+            <StackPanel>
+                <TextBlock Text="Graph"
+                           FontWeight="Bold"
+                           Margin="0,0,0,6"/>
+
+                <Canvas x:Name="NetCanvas"
+                        Width="520"
+                        Height="560"/>
+            </StackPanel>
+        </Border>
+
+        <Border Grid.Row="1"
+                Grid.Column="3"
+                BorderThickness="1"
+                Padding="8"
+                Margin="10,0,0,0">
+
+            <StackPanel>
+                <TextBlock Text="Audit"
+                           FontWeight="Bold"
+                           Margin="0,0,0,6"/>
+
+                <ListBox x:Name="LbAudit"
+                         Height="560"/>
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>

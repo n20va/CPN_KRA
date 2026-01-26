@@ -1,0 +1,17 @@
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /bin/Debug/net9.0/CpnLab.Cli
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /bin/Debug/net9.0/CpnLab.Cli.deps.json
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /bin/Debug/net9.0/CpnLab.Cli.runtimeconfig.json
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /bin/Debug/net9.0/CpnLab.Cli.dll
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /bin/Debug/net9.0/CpnLab.Cli.pdb
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/CpnLab.Cli.csproj.AssemblyReference.cache
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/CpnLab.Cli.GeneratedMSBuildEditorConfig.editorconfig
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/CpnLab.Cli.AssemblyInfoInputs.cache
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/CpnLab.Cli.AssemblyInfo.cs
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/CpnLab.Cli.csproj.CoreCompileInputs.cache
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/CpnLab.Cli.sourcelink.json
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/CpnLab.Cli.csproj.Up2Date
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/CpnLab.Cli.dll
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/refint/CpnLab.Cli.dll
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/CpnLab.Cli.pdb
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/CpnLab.Cli.genruntimeconfig.cache
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Cli /obj/Debug/net9.0/ref/CpnLab.Cli.dll

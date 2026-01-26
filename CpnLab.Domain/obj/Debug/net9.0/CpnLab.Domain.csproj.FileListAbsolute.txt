@@ -1,0 +1,12 @@
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/bin/Debug/net9.0/CpnLab.Domain.deps.json
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/bin/Debug/net9.0/CpnLab.Domain.dll
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/bin/Debug/net9.0/CpnLab.Domain.pdb
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/obj/Debug/net9.0/CpnLab.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/obj/Debug/net9.0/CpnLab.Domain.AssemblyInfoInputs.cache
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/obj/Debug/net9.0/CpnLab.Domain.AssemblyInfo.cs
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/obj/Debug/net9.0/CpnLab.Domain.csproj.CoreCompileInputs.cache
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/obj/Debug/net9.0/CpnLab.Domain.sourcelink.json
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/obj/Debug/net9.0/CpnLab.Domain.dll
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/obj/Debug/net9.0/refint/CpnLab.Domain.dll
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/obj/Debug/net9.0/CpnLab.Domain.pdb
+/Users/varvara/RiderProjects/CpnLab /CpnLab.Domain/obj/Debug/net9.0/ref/CpnLab.Domain.dll

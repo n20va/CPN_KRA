@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CpnLab.Cli/1.0.0": {
+        "dependencies": {
+          "CpnLab.Domain": "1.0.0",
+          "CpnLab.Engine": "1.0.0"
+        },
+        "runtime": {
+          "CpnLab.Cli.dll": {}
+        }
+      },
+      "CpnLab.Domain/1.0.0": {
+        "runtime": {
+          "CpnLab.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CpnLab.Engine/1.0.0": {
+        "dependencies": {
+          "CpnLab.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CpnLab.Engine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CpnLab.Cli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CpnLab.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CpnLab.Engine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
